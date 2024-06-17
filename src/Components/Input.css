@@ -1,0 +1,57 @@
+.full-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .main-page {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .form-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .submitted-forms {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .submitted-form {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .submitted-form h3, .submitted-form p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px; 
+  }
+  .submitted-form p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px; /* Add margin below the description */
+  }
+  .submitted-form button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .submitted-form button:hover {
+    background-color: #ff1a1a;
+  }
