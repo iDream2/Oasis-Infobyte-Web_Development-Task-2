@@ -1,3 +1,3 @@
 # A simple React based To do web app
 !!Check Master Branch
-Repository for Task - 3 , assigned to me as part of my internship in the domain of Web-Development at Oasis Infobyte
+A simple ToDo WebApp that has the functionality of add new tasks and deleting old tasks on choice
